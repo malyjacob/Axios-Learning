@@ -1,0 +1,24 @@
+{
+  "name": "test-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && node ./dist/buffer.js",
+    "build": "tsc && webpack --config webpack.config.js && node ./dist/app.js",
+    "start": "node ./dist/app.js",
+    "get": "node ./dist/example-1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
